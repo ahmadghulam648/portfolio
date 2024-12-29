@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playwrite+IE+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.service-section{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+.service-section > h3{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.service-items{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    grid-gap: 30px;
+    padding: 30px;
+}
+.item-1{
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    box-shadow: 0px 3px 6px -13px rgb(206, 206, 206);
+    padding: 40px;
+}
+.item-1 > .icon-service{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.item-1 > .icon-service >i{
+    font-size: 50px;
+    color: rgb(27, 27, 27);
+}
+.item-1 >h3{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Lato", serif;
+}
+.item-1 p{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+.contact-us{
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+}
+.contact-us h3{
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+}
+.parent-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.contact-left{
+    width: 40%;
+    height: 700px;
+    background-color: rgb(235, 138, 11);
+}
+.contact-left form{
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+}
+.form-tab{
+   width: 100%;
+   padding: 20px;
+}
+.form-tab label{
+    display: block;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.form-tab input{
+    width: 100%;
+    height: 60px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+}
+.form-tab textarea{
+    width: 100%;
+    height: 130px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 10px;
+}
+.contact-right{
+    width: 60%;
+    height: 700px;
+    background-color: #ffffff;
+    padding: 10px;
+}
